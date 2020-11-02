@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav li {
+  padding: 10px;
+  background-color: rgb(133, 7, 7);
+  margin: 10px;
+}
+.grid-3 {
+  display: flex;
+}
+
+main {
+  height: 90vh;
+}
+
+.album-name {
+  display: flex;
+  align-content: flex-end;
+}
+.frank-home { 
+    display: flex;
+    align-content: flex-start;
+}
+.   <ul style="font-family:futura ; color: white;">
