@@ -19,6 +19,8 @@ nav li {
   background-color: rgb(133, 7, 7);
   margin: 10px;
 }
+
+nav a{color: white ; text-decoration:none ; }
 .grid-3 {
   display: flex;
 }
@@ -35,4 +37,4 @@ main {
     display: flex;
     align-content: flex-start;
 }
-.   <ul style="font-family:futura ; color: white;">
+.tracks li {color: rgb(133, 7, 7) ; font-family:futura ; border-bottom: 10pixels rgb(133, 7, 7);  ;}
