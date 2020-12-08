@@ -22,8 +22,7 @@ nav li {
 
 nav a{color: white ; text-decoration:none ; }
 .grid-3 {
-  display: flex;
-}
+  display: flex;}
 
 main {
   height: 90vh;
@@ -37,4 +36,31 @@ main {
     display: flex;
     align-content: flex-start;
 }
-.tracks li {color: rgb(133, 7, 7) ; font-family:futura ; border-bottom: 10pixels rgb(133, 7, 7);  ;}
+.tracks li { color: rgb(133, 7, 7) ; font-family:futura ; border-bottom: 30pixels rgb(133, 7, 7);  margin-right: 30pixels ;}
+ 
+.container1 { 
+  border: 1px 
+}
+.container1{
+  display: flex;
+}
+.box-1{
+  flex:1;
+  order: 1;
+position: sticky;
+bottom: 0;
+margin-right: -100px;
+}
+.box-2{
+  margin-right: 60px;
+  flex:4;
+  order:2;
+  margin-left: -100px;
+ 
+}
+.box-3{
+
+  flex:4;
+  order: 3;
+}
+.h1 { font-size: 90px;}

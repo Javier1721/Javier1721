@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		* {box-sizing: border-box;}
+		main {
+            border: 1px solid red;
+       
+
+		}
+		.gallery {
+				display: grid;
+				grid-template-columns: 1fr;
+			}
+        header {border: 1px solid aqua;}
+        nav ul {display: flex;
+  list-style-type: none; }
+        nav ul {color: white ; text-decoration:none ; }
+		div { border: 1px solid blue; }
+
+		@media only screen and (min-width:768px){
+			.home-page{
+				display: flex;
+			}
+            .col-left { flex: 40%; }
+          
+			.col-right { 
+				flex: 60%; 
+            }
+            .hours 
+			.gallery {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+				grid-gap: 20px;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<header>
+        <h1>barber shop!</h1>
+        <nav>
+            <div class=header-nav> 
+            <ul style="font-family:futura ; color: white;">
+              <li><a href="BookNow.html">BOOK NOW</a></li>
+              <li><a href="Portfolio.html">PORTFOLIO</a></li>
+              <img src="LuiTheBarberLogo-04.png" alt="">
+              <li><a href="Shop.html">SHOP</a></li>
+              <li><a href="ContactMe.html">CONTACT ME</a></li>
+            </ul>
+        </div>
+          </nav>
+	</header>
+	<main class="home-page">
+		<div class="col-left">
+			<section>
+				<h2>About!</h2>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores dicta aliquid labore impedit necessitatibus cupiditate, sit laudantium veniam pariatur, dolore?</p>
+			</section>
+			<section class="hours">
+                <h1>HOURS</h1>
+                <h3>(constantly changing)</h3>
+                <h1>MONDAY</h1>
+                <h3>2:00pm-4:15pm</h3>
+                <h1>TUESDAY</h1>
+                <h3>10:30am-4:15pm</h3>
+                <h1>WEDNESDAY</h1>
+                <h3>9:00am-6:00pm</h3>
+                <h1>THRUSDAY</h1>
+                <h3>9:00am-6:45pm</h3>
+                <h1>FRIDAY</h1>
+                <h3>8:15am-6:00pm</h3>
+                <h1>SATURDAY</h1>
+                <h3>8:15am-6:00pm</h3>
+                 <h1>SUNDAY</h1>
+                 <h3>closed</h3>
+    
+			</section>
+		</div>
+		<div class="col-right">
+				<h2>Instagram account name</h2>
+
+				<section class="gallery">
+					<img src="Screen Shot 2020-11-23 at 11.56.16 AM.png">
+					<img src="Screen Shot 2020-11-23 at 11.56.28 AM.png">
+					<img src="Screen Shot 2020-11-23 at 11.56.57 AM.png">
+					<img src="Screen Shot 2020-11-23 at 11.57.52 AM.png">
+					<img src="Screen Shot 2020-11-23 at 11.58.13 AM.png">
+					<img src="Screen Shot 2020-11-23 at 11.58.34 AM.png">
+					
+				</section>
+
+		</div>
+
+
+	</main>
+
+</body>
+</html>
